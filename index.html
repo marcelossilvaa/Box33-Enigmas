@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" href="./Logos/LogoDecodificadorABA.png">
+    <title>Box33 Enigmas</title>
+</head>
+<body>
+    <header class="barraPrincipal">
+        <div class="barra">
+            <a href="index.html" class=""><img src="./Imagens/logo.png" alt="img-1" class="logo1"></a>
+            <div class="btnBarra">
+                <a href="index.html"><button class="btnBarra-link">Home</button></a>
+                <a href="#"><button class="btnBarra-link">Mapa</button></a>
+                <a href="" target="_blank"><button class="btnBarra-link" >Sobre</button></a>
+            </div>
+        </div>
+    </header>
+    <h2 class="txtTituloH2">Enigmas Educativos - 01</h2>
+    <div class="menu">
+        <main class="menuPrincipal">
+            <div class="container">
+                
+                <div class="conteudoMenu">
+                    <h4 class="txtTexto-1">O mesmo que Didática, Ensino, Instrução...</h4>
+                    <div><img src="./Imagens/money.jpg" alt="dinheiro" class="imgDinheiro"></div>
+                    <h4 class="txtTexto-2">Organize-se, faça um pé de meia para alcançar seus objetivos.</h4>
+                </div>
+                <div>
+                    <input type="text" class="campoTexto" id="tentativa" placeholder="Digite sua resposta aqui">
+                </div>
+                <div class="botao">
+                    <button class="botaoResolver" onclick="resolverEnigma()">Resolver Enigma</button>
+                </div>
+                <div class="resposta" id="resposta"></div>
+            </div>
+            
+        </main>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-descricao">
+            <img src="./Imagens/logo.png" alt="" class="logo-footer">
+            <p class="footer-descricao-dados">© Copyright - 2023</p> 
+            <p class="footer-descricao-dados">By Kido + MSS</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
