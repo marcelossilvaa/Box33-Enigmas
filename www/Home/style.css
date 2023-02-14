@@ -59,16 +59,15 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 300px;
-    
-    
-}.conteudoModulos-listas{
+    height: 300px;    
+}
+.conteudoModulos-listas{
     list-style-type: none;
-    text-decoration: none;
 }
 .conteudoModulos-titulo{
     font-size: 25px;
 }
 .conteudoModulos-temas{
     text-decoration: none;
+    color: black;
 }
