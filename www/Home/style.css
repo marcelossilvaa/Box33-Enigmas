@@ -1,0 +1,74 @@
+/* Home Page ---------------*/
+
+.menu{
+    background-image:url(https://images.wallpaperscraft.com/image/single/lantern_light_darkness_801595_2560x1440.jpg);
+    min-height: 85vh;
+    position: relative;
+    height: 85%;
+    width: 100%;
+    background-size: cover;
+}
+.container{
+    color: aliceblue;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+}
+
+.btn-container{
+    margin-top: 20px;
+}
+
+.btn-container :hover{
+    color: white;
+    background: rgb(2,0,36);
+    font-size: 17px;
+}
+.btn-container :active{
+    background-color: transparent;
+    border-color: #dddada;
+}
+
+.btn-container-link{
+    text-decoration: none;
+    color: #dddada;
+    text-decoration: none;
+    align-items: center;
+    color: #ffffff;
+    background-color: transparent;
+    font-size: 16px;
+    height: 30px;
+    width: 200px;
+    border-radius: 8px;
+    border-color: #ffffff;
+    cursor: pointer;
+    background: rgb(2,0,36);
+    background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(3,3,3,1) 38%, rgba(49,107,163,1) 100%);
+}
+
+/* Conteúdo ---------------*/
+.tituloModulos{
+    display: flex;
+    justify-content: center;
+    color: #dddada;
+    background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(3,3,3,1) 38%, rgba(49,107,163,1) 100%);
+}
+.conteudoModulos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    
+    
+}.conteudoModulos-listas{
+    list-style-type: none;
+    text-decoration: none;
+}
+.conteudoModulos-titulo{
+    font-size: 25px;
+}
+.conteudoModulos-temas{
+    text-decoration: none;
+}
