@@ -91,7 +91,9 @@
     color: #dddada;
 }
 .conteudoModulos-titulo{
-    font-size: 25px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-weight: 600;
 
 }
 .conteudoModulos-temas{
