@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background-color: #cfcfcf;
+    background-color: #000000;
     background-size: 100%;
     width: 100%;
 }
@@ -16,8 +16,7 @@ body {
 
 .barraPrincipal{
     width: 100%;
-    background: rgb(2,0,36);
-    background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(3,3,3,1) 38%, rgba(49,107,163,1) 100%);
+    background-image: black;
 }
 .barra{
     height: 15vh;
@@ -38,11 +37,11 @@ body {
 
 .btnBarra{
     display: flex;
-    gap: 40px;
+    gap: 35px;
 }
 
 .btnBarra :hover{
-    border-bottom: 2px solid #ffffff;
+    color: #6495ED;
 }
 
 .btnBarra-link{
@@ -78,8 +77,7 @@ body {
 
     font-size: 13px;
     color: white;
-    background: rgb(2,0,36);
-    background: linear-gradient(138deg, rgba(2,0,36,1) 0%, rgba(3,3,3,1) 38%, rgba(49,107,163,1) 100%);
+    background-image: linear-gradient(to top, #6495ED 0%, #020202 100%);
 
     padding: 0px 40px;
     width: 100%;

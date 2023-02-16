@@ -1,0 +1,65 @@
+
+
+.titulo-desafios{
+    
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    align-items: center;
+    height: 80px;
+    font-size: 25px;
+    margin-bottom: 20px;
+    background-image: url(https://static.mundoeducacao.uol.com.br/mundoeducacao/conteudo_legenda/cca4e357edde9c2081bceecc35f4bebf.jpg);
+    background-position: 60cm;
+}
+.titulo-style{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    border-radius: 5px;
+    padding: 4px;
+    background-color: #000000;
+
+}
+.box1{
+    color: #6495ED;
+    margin-right: 20px;
+}
+
+
+.desafios{
+    display: flex;
+    justify-content: center;
+}
+.desafios-menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+
+}
+.desafios-itens{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    height: 70px;
+    width: 200px;
+    justify-content: space-around;
+    margin: 10px 0px;
+    border: solid 1px;
+    border-radius: 8px;
+    border-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, #2e2e2e 0%, #0e0e0e 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    font-size: large;
+    font-weight: 600;
+    color: antiquewhite;
+}
+.logo-play{
+    width: 40px;
+    display: flex;
+}
