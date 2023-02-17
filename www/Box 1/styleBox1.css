@@ -50,12 +50,15 @@
     width: 200px;
     justify-content: space-around;
     margin: 10px 0px;
-    border: solid 1px;
+    border: solid 1px black;
     border-radius: 8px;
-    background-image: linear-gradient(to top, #accbee 0%, #6495ED 100%);
+    background-image: linear-gradient(to top, #000000 0%, #6495ED 100%);
     font-size: large;
     font-weight: 600;
     color: rgb(0, 0, 0);
+}
+.desafios-menu :hover{
+    border-color: #6495ED;
 }
 .logo-play{
     width: 40px;
