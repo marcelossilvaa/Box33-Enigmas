@@ -1,6 +1,5 @@
 
-function resolverEnigma(){
-    var resposta = ''
+function resolverEnigma(resEnigma){
     const str = document.getElementById('tentativa').value
     const botao = document.getElementById("botao-surgir")
 
@@ -28,7 +27,7 @@ function resolverEnigma(){
         }
     }
     
-    if(novastr == 'teste'){
+    if(novastr == resEnigma){
         resposta.innerHTML = 'Parabéns, você acertou!'
         botao.appendChild(newBtn)
         
@@ -37,5 +36,15 @@ function resolverEnigma(){
     }
 }
 
+
+
+function botaoEnter(e) {
+    e = e || window.event;
+    switch (e.which || e.keyCode) {
+            case 13 : 
+                resolverEnigma('teste1')
+            break;
+    }
+}
 //Novo botão
 
