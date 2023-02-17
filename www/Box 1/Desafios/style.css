@@ -107,3 +107,19 @@
     cursor: pointer;
 }
 
+/* Botão proxima fase ---------------*/
+
+#btnGo{
+    align-items: center;
+    margin-top: 15px;
+    font-size: 16px;
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+    border-color: #595c5f;
+    cursor: pointer;
+    background: url(../Galeria/btn-play.png);
+    background-size: 80px;
+    background-position: center;
+    
+}
