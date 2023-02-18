@@ -21,7 +21,7 @@
     font-size: 40px;
 }
 .menuDestaque-titulo-2{
-    color: #6495ED;
+    color: #FBFF2A;
 }
 
 .btn-container{
@@ -29,8 +29,8 @@
 }
 
 .btn-container :hover{
-    color: white;
-    background: rgb(0, 0, 0);
+    color: #FBFF2A;
+    background: #000000;
     font-size: 18px;
 }
 .btn-container :active{
@@ -40,16 +40,15 @@
 
 .btn-container-link{
     text-decoration: none;
-    color: #ffffff;
+    color: #000000;
     align-items: center;
     font-size: 16px;
-    height: 40px;
+    height: 30px;
     width: 200px;
     border-radius: 8px;
     cursor: pointer;
     border: transparent;
-
-    background-image: linear-gradient(to top, #6495ED 0%, #000000 100%);
+    background-color: #FBFF2A;
 }
 
 /* Conteúdo ---------------*/
@@ -67,7 +66,7 @@
     align-items: center;
     justify-content: center;
     color: #000000;
-    background-image: linear-gradient(to top, #000000 0%, #6495ED 100%);
+    background-color: white;
 }
 .conteudoModulos{
     display: flex;
@@ -84,7 +83,7 @@
     width: 18%;
     height: 40%;
     padding: 10px;
-    background-image: linear-gradient(to top, #000000 0%, #6495ED 100%);
+    background-color: white;
 }
 .conteudoModulos :hover{
     border-color: #6495ED;

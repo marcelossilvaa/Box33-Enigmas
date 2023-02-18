@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 body {
-    background-color: #000000;
+    background-color: #0F1819;
     background-size: 100%;
     width: 100%;
 }
@@ -16,7 +16,7 @@ body {
 
 .barraPrincipal{
     width: 100%;
-    background-image: black;
+    background-image: #0F1819;
 }
 .barra{
     height: 15vh;
@@ -41,7 +41,7 @@ body {
 }
 
 .btnBarra :hover{
-    color: #6495ED;
+    color: #FBFF2A;
 }
 
 .btnBarra-link{
@@ -50,7 +50,7 @@ body {
     width: 80px;
     height: 35px;
     background-color: transparent;
-    border: 2px solid transparent;
+    border: 2px solid transparent; 
     padding: 6px 2px;
 
     cursor: pointer; /*EFEITO AO PASSAR O CURSOR PELO BOTÃO */
@@ -77,15 +77,15 @@ body {
 
     font-size: 13px;
     color: white;
-    background-image: linear-gradient(to top, #6495ED 0%, #020202 100%);
+    background-image: linear-gradient(to top, #414141 0%, #0F1819 100%);
 
     padding: 0px 40px;
     width: 100%;
-    height: auto;
+    height: 250px;
     position: absolute;
 }
 .footer-descricao{
-    margin: 20px 0px;
+    margin: 80px 0px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -93,4 +93,8 @@ body {
 }
 .footer-descricao-dados{
     padding: 8px 0px 0px 0px;
+}
+
+.logo-footer{
+    width: 200px;
 }

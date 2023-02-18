@@ -21,7 +21,7 @@
 
 }
 .box1{
-    color: #6495ED;
+    color: #FBFF2A;
     margin-right: 20px;
 }
 
@@ -31,12 +31,13 @@
     background-color: #000000;
 }
 .menuPrincipal{
+    margin-top: 20px;
     color: #dddada;
     margin-bottom: 20px;
     border: 0.1px solid;
     border-color: #000000;
     border-radius: 4px;
-    padding: 20px 0px;
+    padding: 10px 0px;
     background-image: linear-gradient(to left, #2e2e2e 0%, #0e0e0e 100%), radial-gradient(88% 271%, rgba(255, 255, 255, 0.25) 0%, rgba(254, 254, 254, 0.25) 1%, rgba(0, 0, 0, 0.25) 100%), radial-gradient(50% 100%, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%);
     background-blend-mode: normal, lighten, soft-light;
 }
