@@ -38,6 +38,7 @@ body {
 .btnBarra{
     display: flex;
     gap: 35px;
+    flex-wrap: wrap;
 }
 
 .btnBarra :hover{
@@ -97,4 +98,17 @@ body {
 
 .logo-footer{
     width: 200px;
+}
+
+@media (max-width: 700px){
+    .btnBarra{
+        gap: 5px;
+    }
+    .barra{
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 10px 10px;
+    }
 }

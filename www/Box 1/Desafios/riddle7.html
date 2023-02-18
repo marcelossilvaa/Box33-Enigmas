@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../../styles/layout.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./Logos/LogoDecodificadorABA.png">
-    <title>Prototipo Box33 Enigmas</title>
+    <link rel="icon" href="../../../galeria/icone.png">
+    <title>Box33 | Riddle 7</title>
 </head>
 <body>
     <header class="barraPrincipal">
@@ -55,7 +55,14 @@
 
     <script src="script.js"></script>
     <script>
-        var resposta = 'ola'
+                            function botaoEnter(e) {
+            e = e || window.event;
+            switch (e.which || e.keyCode) {
+                    case 13 : 
+                        resolverEnigma('jane austen')
+                    break;
+            }
+        }
     </script>
 </body>
 </html>

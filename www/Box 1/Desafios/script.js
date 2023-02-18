@@ -42,7 +42,7 @@ function botaoEnter(e) {
     e = e || window.event;
     switch (e.which || e.keyCode) {
             case 13 : 
-                resolverEnigma('teste1')
+                resolverEnigma('resEnigma')
             break;
     }
 }
