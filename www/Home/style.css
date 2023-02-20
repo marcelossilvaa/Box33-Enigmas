@@ -17,7 +17,6 @@
     font-size: 20px;
 }
 .menuDestaque-titulo{
-    
     font-size: 40px;
 }
 .menuDestaque-titulo-2{
@@ -82,8 +81,8 @@
 .card{
     background-color: #000000;
     color: #dddada;
-    margin: 0% 3vw;
-    min-width: 180px;
+    margin: 1vw 3vw;
+    min-width: 250px;
 }
 
 .btn{
@@ -98,5 +97,14 @@
 }
 
 @media (max-width: 700px){
-
+    .menuDestaque-titulo{
+        font-size: 25px;
+    }
+    .menuDestaque-titulo-2{
+        color: #FBFF2A;
+    }
+    .menuDestaque-texto{
+        font-size: 18px;
+    }
+    
 }
