@@ -99,6 +99,15 @@ body {
 .logo-footer{
     width: 200px;
 }
+@media (max-width: 1150px){
+    .barra{
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 10px 10px;
+    }
+} 
 
 @media (max-width: 700px){
     .btnBarra{
