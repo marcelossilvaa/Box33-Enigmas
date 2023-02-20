@@ -25,12 +25,14 @@
 
 .btn-container{
     margin-top: 20px;
+    cursor: pointer;
 }
 
 .btn-container :hover{
     color: #FBFF2A;
     background: #000000;
     font-size: 18px;
+    transition: 0.4s;
 }
 .btn-container :active{
     background-color: transparent;
@@ -65,6 +67,7 @@
     justify-content: center;
     color: #000000;
     background-color:#FBFF2A;
+    padding: 0px 5px;
 }
 .conteudoModulos{
     display: flex;
@@ -83,6 +86,19 @@
     color: #dddada;
     margin: 1vw 3vw;
     min-width: 250px;
+
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s
+}
+
+.card:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
 }
 
 .btn{
@@ -94,6 +110,8 @@
 }
 .btn :hover{
     background-color: #000000;
+    transition: 0.4s;
+    
 }
 
 @media (max-width: 700px){
@@ -105,6 +123,9 @@
     }
     .menuDestaque-texto{
         font-size: 18px;
+    }
+    .tituloModulo-titulo{
+        font-size: 30px;
     }
     
 }

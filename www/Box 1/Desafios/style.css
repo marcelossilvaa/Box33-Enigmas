@@ -70,6 +70,7 @@
 .imgDinheiro{
     width: 300px;
     border: 4px solid rgb(0, 0, 0);
+    box-shadow: #000000 1px 1px 5px;
 }
 
 .campoTexto{
@@ -107,6 +108,10 @@
     border-radius: 10px;
     border-color: #595c5f;
     cursor: pointer;
+}
+.btnHome{
+    text-decoration: none;
+    color: white;
 }
 
 /* Botão proxima fase ---------------*/

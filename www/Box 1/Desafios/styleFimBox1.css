@@ -1,0 +1,12 @@
+.card{
+    width: 120vh;
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-bottom: 20px;
+    background-color: rgb(109, 109, 109);
+}
+
+.blockquote-footer{
+    color: white;
+}

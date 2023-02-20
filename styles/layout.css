@@ -13,7 +13,6 @@ body {
 }
 
 /* Título ---------------*/
-
 .barraPrincipal{
     width: 100%;
     background-image: #0F1819;
@@ -33,6 +32,23 @@ body {
 }
 .logo1{
     width: 200px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s
+}
+.logo1:hover{
+        transition: 0.4s;
+        -webkit-transform: rotateZ(-5deg);
+        -ms-transform: rotateZ(-5deg);
+        transform: rotateZ(-5deg);
+}
+
+.logo1:after{
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotateZ(0deg);
+    transform: rotateZ(0deg);
 }
 
 .btnBarra{

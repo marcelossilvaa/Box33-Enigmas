@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="./styles/layout.css">
     <link rel="stylesheet" href="./www/Home/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,20 +13,20 @@
     <title>Box33 Enigmas</title>
 </head>
 <body>
-    <header class="barraPrincipal">
-        <div class="barra">
+    <header class="barraPrincipal" id="home">
+        <nav class="barra" id="top">
             <a href="index.html" class=""><img src="./galeria/logo.png" alt="img-1" class="logo1"></a>
             <div class="btnBarra">
-                <a href="index.html"><button class="btnBarra-link">Home</button></a>
-                <a href="#anchor"><button class="btnBarra-link">Boxes</button></a>
+                <a href="#home"><button class="btnBarra-link">Home</button></a>
+                <a href="#boxes"><button class="btnBarra-link">Boxes</button></a>
                 <a href="#"><button class="btnBarra-link">Mapa</button></a>
                 <a href="" target="_blank"><button class="btnBarra-link" >Sobre</button></a>
             </div>
             
-        </div>
+        </nav>
     </header>
     <main>
-        <div class="menu" id="anchor">
+        <div class="menu">
             <div class="container">
                 <div class="menuDestaque">
                     <p class="menuDestaque-titulo"><strong class="menuDestaque-titulo-2">BOX33</strong> Enigmas (Versão Beta)</p>
@@ -41,7 +41,7 @@
         
         <!-- Boxes ------------------------------- -->
         
-        <div class="modulos">
+        <div class="modulos" id="boxes">
             <div class="tituloModulos">
                 <p class="tituloModulo-titulo"> Boxes</p>
             </div>       
