@@ -55,7 +55,7 @@
 
 }
 
-/* Boxes ---------------*/
+/* Boxes ---------------------------------------*/
 
 .tituloModulos{
     display: flex;
@@ -84,7 +84,7 @@
     border-color: #FBFF2A;
 }
 
-/* Cards ---------------*/
+/* Boxes Cards ---------------*/
 .card{
     background-color: #000000;
     color: #dddada;
@@ -117,8 +117,48 @@
     transition: 0.4s;
     
 }
+/* Comunidade -----------------------------*/
+.comunidade{
+    display: flex;
+    justify-content: center;
+    color: #dddada;
+}
+.comunidade-infos{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.comunidade-titulo{
+    font-size: x-large;
+    text-align: center;
+}
+.comunidade-titulo-2{
+    font-size: large;
+    text-align: center;
 
-@media (max-width: 700px){
+}
+.iconesImg{
+    margin: 0px 20px;
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+/* Sobre ----------------------------------*/
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-sobre{
+    width: 80vw;
+    color: white;
+    text-align: justify;
+}
+
+
+@media (max-width: 768px){
     .menuDestaque-titulo{
         font-size: 25px;
     }
@@ -134,5 +174,12 @@
     
     .card{
         margin-bottom: 30px;
+    }
+    
+    .comunidade-titulo{
+        font-size: large;
+    }
+    .comunidade-titulo-2{
+        font-size:medium;
     }
 }
