@@ -2,6 +2,7 @@
 
 .menu{
     background-image:url(https://images.wallpaperscraft.com/image/single/lantern_wall_glow_176891_2560x1440.jpg);
+    background-position: center;
     min-height: 85vh;
     position: relative;
     height: 100%;
@@ -15,6 +16,7 @@
     display: flex;
     width: 75%;
     font-size: 20px;
+    text-shadow: 0.1em 0.1em 0.2em black;
 }
 .menuDestaque-titulo{
     font-size: 40px;
@@ -32,7 +34,6 @@
     color: #FBFF2A;
     background: #000000;
     font-size: 18px;
-    transition: 0.4s;
 }
 .btn-container :active{
     background-color: transparent;
@@ -44,12 +45,14 @@
     color: #000000;
     align-items: center;
     font-size: 16px;
-    height: 30px;
-    width: 200px;
+    height: 40px;
+    width: 250px;
     border-radius: 8px;
     cursor: pointer;
     border: transparent;
     background-color: #FBFF2A;
+    transition: all .4s ease-in-out;
+
 }
 
 /* Boxes ---------------*/
@@ -74,6 +77,7 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 
 .conteudoModulos :hover{
@@ -128,4 +132,7 @@
         font-size: 30px;
     }
     
+    .card{
+        margin-bottom: 30px;
+    }
 }
