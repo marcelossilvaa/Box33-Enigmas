@@ -1,18 +1,16 @@
+var riddle = ['', 'williamshakespeare', 'leonardodavinci', 'beethoven', 'pablopicasso', 'fridakahlo', 'charliechaplin', 'janeausten'];
 
-function resolverEnigma(resEnigma){
-    const str = document.getElementById('tentativa').value
-    const botao = document.getElementById("botao-surgir")
+function resolverEnigma(_riddle){
+    const str = document.getElementById('tentativa').value;
+    const botao = document.getElementById("botao-surgir");
+    var resposta = document.getElementById('resposta');
 
-    const newBtn = document.createElement('button')
-    newBtn.innerText = ''
-    newBtn.id = 'btnGo'
-
-    var resposta = document.getElementById('resposta')
+  //surgir botão ---------------
 
 
     com_acento = "áàãââÁÀÃÂéêÉÊíÍóõôÓÔÕúüÚÜçÇABCDEFGHIJKLMNOPQRSTUVXWYZ";
     sem_acento = "aaaaaaaaaeeeeiioooooouuuuccabcdefghijklmnopqrstuvxwyz";
-    var novastr="";
+    var novastr="";   //tirar acentos e letras maiusculas
     for(i=0; i<str.length; i++) {
         troca=false;
         for (a=0; a<com_acento.length; a++) {
@@ -26,25 +24,35 @@ function resolverEnigma(resEnigma){
             novastr+=str.substr(i,1);
         }
     }
-    
-    if(novastr == resEnigma){
-        resposta.innerHTML = 'Parabéns, você acertou!'
-        botao.appendChild(newBtn)
-        
+
+    var resfinal = novastr.replace(/ /g, ''); //tirar espaços
+
+    if(resfinal == _riddle){
+        resposta.innerText = 'Parabéns, você acertou!'
+
+        var existingBtn = document.getElementById("btnGo");
+        if (!existingBtn) {
+            const newBtn = document.createElement('button');
+            newBtn.innerText = '';
+            newBtn.id = 'btnGo';
+            botao.appendChild(newBtn);
+        }
+
     } else {
-        resposta.innerHTML = 'Você errou, tente novamente.'
+        resposta.innerText = 'Você errou, tente novamente.'
     }
 }
 
 
+//interação tecla enter
+    var input = document.getElementById("tentativa");
+    var button = document.getElementById("btnResolver");
 
-function botaoEnter(e) {
-    e = e || window.event;
-    switch (e.which || e.keyCode) {
-            case 13 : 
-                resolverEnigma('resEnigma')
-            break;
+input.addEventListener("keydown", function(event) {
+    if (event.keyCode === 13) { // 13 é o código para a tecla Enter
+        event.preventDefault();
+        button.click();
     }
-}
-//Novo botão
+});
+
 

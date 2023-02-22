@@ -33,10 +33,10 @@
                     <h5 class="txtTexto">Seu legado influenciou o teatro, a literatura e a cultura popular por séculos.</h5>
                 </div>
                 <div>
-                    <input type="text" class="campoTexto" id="tentativa" onkeypress="botaoEnter(event)" placeholder="Digite sua resposta aqui">
+                    <input type="text" class="campoTexto" id="tentativa" placeholder="Digite sua resposta aqui">
                 </div>
                 <div class="botao">
-                    <button class="botaoResolver" onclick="resolverEnigma('william shakespeare')" >Resolver</button>
+                    <button class="botaoResolver" id="btnResolver" onclick="resolverEnigma(riddle[1])" >Resolver</button>
                 </div>
                     <div class="resposta" id="resposta"></div>
                     <a href="./riddle2.html"><div id="botao-surgir"></div></a></div>
@@ -54,15 +54,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-        function botaoEnter(e) {
-        e = e || window.event;
-        switch (e.which || e.keyCode) {
-                case 13 : 
-                    resolverEnigma('william shakespeare')
-                break;
-        }
-    }
-    </script>
 </body>
 </html>

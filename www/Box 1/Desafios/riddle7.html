@@ -36,7 +36,7 @@
                     <input type="text" class="campoTexto" id="tentativa" onkeypress="botaoEnter(event)" placeholder="Digite sua resposta aqui">
                 </div>
                 <div class="botao">
-                    <button class="botaoResolver" onclick="resolverEnigma('jane austen')">Resolver</button>
+                    <button class="botaoResolver" id="btnResolver" onclick="resolverEnigma(riddle[7])">Resolver</button>
                 </div>
                 <div class="resposta" id="resposta"></div>
                 <a href="./riddleFim.html"><div id="botao-surgir"></div></a></div>
@@ -54,15 +54,5 @@
     </footer>
 
     <script src="script.js"></script>
-    <script>
-                            function botaoEnter(e) {
-            e = e || window.event;
-            switch (e.which || e.keyCode) {
-                    case 13 : 
-                        resolverEnigma('jane austen')
-                    break;
-            }
-        }
-    </script>
 </body>
 </html>
